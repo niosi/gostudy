@@ -31,7 +31,7 @@ func checkFileIsExist(filename string) bool {
 
 func main() {
 	var wireteString = "测试n"
-	var filename = "./output1.txt"
+	var filename = "./upload/output1.txt"
 	var f *os.File
 	var err1 error
 	/***************************** 第一种方式: 使用 io.WriteString 写入文件 ***********************************************/
@@ -49,11 +49,11 @@ func main() {
 
 	/*****************************  第二种方式: 使用 ioutil.WriteFile 写入文件 ***********************************************/
 	var d1 = []byte(wireteString)
-	err2 := ioutil.WriteFile("./output2.txt", d1, 0666) //写入文件(字节数组)
+	err2 := ioutil.WriteFile("./upload/output2.txt", d1, 0666) //写入文件(字节数组)
 	check(err2)
 
 	/*****************************  第三种方式:  使用 File(Write,WriteString) 写入文件 ***********************************************/
-	f, err3 := os.Create("./output3.txt") //创建文件
+	f, err3 := os.Create("./upload/output3.txt") //创建文件
 	check(err3)
 	defer f.Close()
 	n2, err3 := f.Write(d1) //写入文件(字节数组)
