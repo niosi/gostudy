@@ -54,5 +54,7 @@ func main() {
 			break
 		}
 	}*/
-	testChanel()
+	timestamp := time.Now().Format("%y-%m-%d")
+	fmt.Print(timestamp)
+	//testChanel()
 }
