@@ -29,6 +29,7 @@ func main() {
 	stu := Student{User:User{"李四",18,0},sno:"11001100"}
 	IInfo(user)
 	IInfo(stu)
+	IInfo(nil)
 }
 
 func IInfo(i interface{})  {
@@ -44,6 +45,6 @@ func IInfo(i interface{})  {
 		fmt.Println(t.FieldByIndex([]int{0,0}))
 		fmt.Println(v.FieldByIndex([]int{0,0}))
 	default:
-		fmt.Println("isStudent");
+		fmt.Println("unknowtype")
 	}
 }
