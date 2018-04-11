@@ -91,7 +91,7 @@ func main() {
 		client := ws.RemoteAddr()
 		sockCli := ClientConn{ws, client}
 		addClient(sockCli)
-
+		log.Println(client)
 		for {
 			log.Println(len(ActiveClients), ActiveClients)
 			messageType, p, err := ws.ReadMessage()

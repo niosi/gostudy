@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="146f5bc2-b803-4bcc-9844-f970a5e28814" name="Default" comment="test">
-      <change beforePath="" afterPath="$PROJECT_DIR$/third/rpc.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/third/sliceproblem.go" />
+    <list default="true" id="146f5bc2-b803-4bcc-9844-f970a5e28814" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/third/goconfig.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/firstday/close.go" afterPath="$PROJECT_DIR$/first/close.go" />
-      <change beforePath="$PROJECT_DIR$/firstday/finger.go" afterPath="$PROJECT_DIR$/first/finger.go" />
-      <change beforePath="$PROJECT_DIR$/firstday/helloworld.go" afterPath="$PROJECT_DIR$/first/helloworld.go" />
-      <change beforePath="$PROJECT_DIR$/firstday/interface.go" afterPath="$PROJECT_DIR$/first/interface.go" />
-      <change beforePath="$PROJECT_DIR$/firstday/list.go" afterPath="$PROJECT_DIR$/first/list.go" />
-      <change beforePath="$PROJECT_DIR$/firstday/map.go" afterPath="$PROJECT_DIR$/first/map.go" />
-      <change beforePath="$PROJECT_DIR$/firstday/network.go" afterPath="$PROJECT_DIR$/first/network.go" />
-      <change beforePath="$PROJECT_DIR$/firstday/redis.go" afterPath="$PROJECT_DIR$/first/redis.go" />
-      <change beforePath="$PROJECT_DIR$/second/concurrency.go" afterPath="$PROJECT_DIR$/second/concurrency.go" />
-      <change beforePath="$PROJECT_DIR$/third/reflection2.go" afterPath="$PROJECT_DIR$/third/reflection2.go" />
+      <change beforePath="$PROJECT_DIR$/third/websocket.go" afterPath="$PROJECT_DIR$/third/websocket.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,23 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="reflection2.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/third/reflection2.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="668">
-              <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
-              <folding>
-                <element signature="e#14#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="concurrency.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/second/concurrency.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+              <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
               <folding>
                 <element signature="e#14#50#0" expanded="true" />
               </folding>
@@ -53,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/third/sliceproblem.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="e#14#26#0" expanded="true" />
               </folding>
@@ -65,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/second/http.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="31">
-              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+              <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -91,11 +69,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="helloworld.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="helloworld.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/first/helloworld.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="188">
               <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="websocket.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/third/websocket.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#124#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="goconfig.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/third/goconfig.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+              <folding>
+                <element signature="e#14#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conf.ini" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/conf.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -123,6 +135,9 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>develope</find>
+    </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
@@ -152,6 +167,8 @@
         <option value="$PROJECT_DIR$/third/sliceproblem.go" />
         <option value="$PROJECT_DIR$/third/rpc.ts" />
         <option value="$PROJECT_DIR$/third/rpc.go" />
+        <option value="$PROJECT_DIR$/third/websocket.go" />
+        <option value="$PROJECT_DIR$/third/goconfig.go" />
       </list>
     </option>
   </component>
@@ -191,11 +208,6 @@
               <item name="gostudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="gostudy" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="gostudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gostudy" type="462c0819:PsiDirectoryNode" />
-              <item name="third" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -213,6 +225,9 @@
     <property name="GO_FMT" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\items\test\go\src\gostudy\third" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\items\test\go\src\gostudy\util" />
       <recent name="E:\items\test\go\src\gostudy\upload" />
@@ -230,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build sliceproblem.go">
+  <component name="RunManager" selected="Go Build.go build goconfig.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="gostudy" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -247,14 +262,6 @@
       <filePath value="$PROJECT_DIR$/uspkg/基本IO.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build channel.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="gostudy" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/second/channel.go" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
     <configuration name="go build concurrency.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="gostudy" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -263,12 +270,12 @@
       <filePath value="$PROJECT_DIR$/second/concurrency.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build mail.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+    <configuration name="go build goconfig.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="gostudy" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/second/mail.go" />
+      <filePath value="$PROJECT_DIR$/third/goconfig.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <configuration name="go build reflection2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
@@ -287,6 +294,14 @@
       <filePath value="$PROJECT_DIR$/third/sliceproblem.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
+    <configuration name="go build websocket.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="gostudy" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/third/websocket.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="gostudy" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -295,19 +310,19 @@
       <kind value="DIRECTORY" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Build.go build channel.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Build.go build mail.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Build.go build reflection2.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Build.go build concurrency.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Build.go build sliceproblem.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Build.go build reflection2.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Build.go build concurrency.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Build.go build sliceproblem.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Build.go build websocket.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Build.go build goconfig.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build sliceproblem.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build concurrency.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Build.go build reflection2.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Build.go build mail.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Build.go build channel.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build goconfig.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build websocket.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build sliceproblem.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Build.go build concurrency.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Build.go build reflection2.go" />
       </list>
     </recent_temporary>
   </component>
@@ -318,17 +333,17 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40411702" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22968581" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31527627" sideWeight="0.503125" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29577464" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26327193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3336945" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31527627" sideWeight="0.496875" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -358,7 +373,8 @@
     <MESSAGE value="反射复习" />
     <MESSAGE value="并发处理gorotine 跟 channel" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="增加websocket" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加websocket" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -375,8 +391,38 @@
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/third/websocket.go</url>
+          <line>103</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/third/websocket.go</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/third/websocket.go</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/third/websocket.go</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/third/websocket.go</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="11" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -403,7 +449,7 @@
         <state relative-caret-position="798">
           <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
           <folding>
-            <element signature="e#14#54#0" expanded="true" />
+            <element signature="e#14#54#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -477,7 +523,7 @@
         <state relative-caret-position="107">
           <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
           <folding>
-            <element signature="e#249#308#0" expanded="true" />
+            <element signature="e#249#308#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -487,7 +533,7 @@
         <state relative-caret-position="-349">
           <caret line="12" column="6" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="6" />
           <folding>
-            <element signature="e#33#89#0" expanded="true" />
+            <element signature="e#33#89#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -505,7 +551,7 @@
         <state relative-caret-position="681">
           <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
           <folding>
-            <element signature="e#14#54#0" expanded="true" />
+            <element signature="e#14#54#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -529,9 +575,9 @@
     <entry file="file://$PROJECT_DIR$/third/reflection2.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="668">
-          <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+          <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
           <folding>
-            <element signature="e#14#48#0" expanded="true" />
+            <element signature="e#14#48#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -539,7 +585,7 @@
     <entry file="file://$PROJECT_DIR$/second/concurrency.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="32" column="12" lean-forward="true" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+          <caret line="32" column="12" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
           <folding>
             <element signature="e#14#50#0" expanded="true" />
           </folding>
@@ -557,7 +603,7 @@
     <entry file="file://$PROJECT_DIR$/third/sliceproblem.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="e#14#26#0" expanded="true" />
           </folding>
@@ -575,7 +621,7 @@
     <entry file="file://$PROJECT_DIR$/second/http.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -600,6 +646,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/third/websocket.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="96" column="0" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/third/conf.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/third/goconfig.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <element signature="e#14#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/conf.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="4" />
           <folding />
         </state>
       </provider>
