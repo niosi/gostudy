@@ -1,3 +1,3 @@
-[xorm] [info]  2018/04/13 11:10:14.263202 [SQL] CREATE TABLE IF NOT EXISTS `user` (`id` BIGINT(20) PRIMARY KEY AUTO_INCREMENT NOT NULL, `name` VARCHAR(255) NULL, `sex` INT NULL, `age` INT NULL) - took: 0s
-[xorm] [info]  2018/04/13 11:10:14.394202 [SQL] INSERT INTO User(Name, Sex, Age) values('zhangsan',1,1) - took: 125ms
-[xorm] [info]  2018/04/13 11:10:14.395202 [SQL] SELECT `id`, `name`, `sex`, `age` FROM `user` WHERE `id`=? LIMIT 1 []interface {}{3} - took: 1ms
+[xorm] [info]  2018/04/13 15:42:31.752202 [SQL] CREATE TABLE IF NOT EXISTS `user` (`id` BIGINT(20) PRIMARY KEY AUTO_INCREMENT NOT NULL, `name` VARCHAR(255) NULL, `sex` INT NULL, `age` INT NULL) - took: 1ms
+[xorm] [info]  2018/04/13 15:42:31.823202 [SQL] INSERT INTO User(Name, Sex, Age) values('zhangsan',1,1) - took: 66ms
+[xorm] [info]  2018/04/13 15:42:31.823202 [SQL] SELECT `id`, `name`, `sex`, `age` FROM `user` WHERE `id`=? LIMIT 1 []interface {}{3} - took: 0s

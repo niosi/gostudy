@@ -1,5 +1,4 @@
 package main
-
 import (
 	"io/ioutil"
 	"fmt"
@@ -19,7 +18,7 @@ func main() {
 
 	reader := bytes.NewReader(bytesData)
 
-	resp, err := http.Post("http://127.0.0.1:60003/frontend/json", "application/json", reader)
+	resp, err := http.Post("http://192.168.13.55:60003/frontend/json", "application/json", reader)
 	if err != nil {
 		return
 	}
