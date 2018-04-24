@@ -9,10 +9,8 @@ import (
 
 func main() {
 	data := make(map[string]interface{})
-	data["ActionId"] = 2308
-	data["skip"] = 2
-	data["AppId"] = 1010
-	data["limit"] = 10
+	data["ActionId"] = "Test"
+	data["DevicesId"] = "123"
 
 	bytesData, _ := json.Marshal(data)
 
