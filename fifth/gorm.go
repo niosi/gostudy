@@ -1,11 +1,11 @@
 package main
 
 import "github.com/jinzhu/gorm"
-import _ "github.com/jinzhu/gorm/dialects/sqlite"
+import _ "github.com/mattn/go-sqlite3"
 
 type Product struct {
 	gorm.Model
-	Code string
+	Code  string
 	Price uint
 }
 
@@ -24,7 +24,7 @@ func main() {
 
 	// 读取
 	var product Product
-	db.First(&product, 1) // 查询id为1的product
+	db.First(&product, 1)                   // 查询id为1的product
 	db.First(&product, "code = ?", "L1212") // 查询code为l1212的product
 
 	// 更新 - 更新product的price为2000

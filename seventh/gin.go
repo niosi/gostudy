@@ -1,12 +1,13 @@
 package main
 
-import "github.com/gin-gonic/gin"
 import (
-	_ "github.com/golang/protobuf/proto"
-	"net/http"
 	"fmt"
-	"time"
 	"log"
+	"net/http"
+	"time"
+
+	"github.com/gin-gonic/gin"
+	_ "github.com/golang/protobuf/proto"
 )
 
 type IdCard struct {

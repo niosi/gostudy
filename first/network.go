@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	addr := "wwww.baidu.com:80" //定义主机名
+	addr := "www.baidu.com:80" //定义主机名
 	conn,err := net.Dial("tcp",addr) //拨号操作，需要指定协议。
 	if err != nil {
 		log.Fatal(err)
